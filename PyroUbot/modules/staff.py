@@ -59,7 +59,7 @@ Staff Grup
 <emoji id=5803032306213982905>👑</emoji> Owner:
 {creator[0]}
 
-<emoji id=5800942688660360834>👮</emoji> admin:
+<emoji id=5800942688660360834>👮</emoji> Admin:
 """ + "\n".join(
             admin
         )
@@ -99,7 +99,7 @@ Staff Grup
                 + "\n".join(co_founder)
                 + """
 
-<emoji id=5800942688660360834>👮</emoji> admin:
+<emoji id=5800942688660360834>👮</emoji> Admin:
 """
             )
             + "\n".join(admin)
