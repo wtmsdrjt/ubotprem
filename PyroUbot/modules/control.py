@@ -95,8 +95,8 @@ async def _(client, message):
     msg_afk = (
         f"{tion} Sedang AFK\n{ktrng} Alasan: {reason}"
         if reason
-        else f"{tion} Sedang AFK!"
-      )
+        else f"{tion} Sedang AFK"
+    )
     await set_vars(client.me.id, "AFK", db_afk)
     return await message.reply(msg_afk)
 
