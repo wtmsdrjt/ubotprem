@@ -93,8 +93,7 @@ async def _(client, message):
     reason = get_arg(message)
     db_afk = {"time": time(), "reason": reason}
     msg_afk = (
-        f"{tion} Sedang AFK
-{ktrng} Alasan: {reason}"
+        f"{tion} Sedang AFK\n{ktrng} Alasan: {reason}"
         if reason
         else f"{tion} Sedang AFK!"
       )
