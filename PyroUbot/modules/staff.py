@@ -23,10 +23,11 @@ async def staff_cmd(client, message):
     async for x in message.chat.get_members():
         mention = f"<a href=tg://user?id={x.user.id}>{x.user.first_name} {x.user.last_name or ''}</a>"
         if (
-            x.status.value == "administrator"
-            and x.privileges
-            and x.privileges.can_promote_members
-        ):
+    x.status.value == "administrator"
+    and x.privileges
+    and x.privileges.can_promote_members
+):
+    pass  # Ini akan mencegah IndentationError
 if x.custom_title:
     co_founder.append(f"🔹 {mention} - {x.custom_title}")
 else:
