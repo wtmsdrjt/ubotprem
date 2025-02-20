@@ -125,7 +125,7 @@ async def _(client, callback_query):
         m = [obj for obj in get_objects() if id(obj) == int(data[1])][0]
         m._client._translate[m._client.me.id] = lang_code_translate[data[2]]
         return await callback_query.edit_message_text(
-            f"Bahasa berhasil diubah ke Fonts.smallcap(data[2].lower())}."
+            f"Bahasa berhasil diubah ke {Fonts.smallcap(data[2].lower())}."
         )
     except Exception as error:
         return await callback_query.edit_message_text(f"{error}")
