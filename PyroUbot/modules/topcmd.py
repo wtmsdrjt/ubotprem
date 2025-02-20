@@ -15,11 +15,11 @@ async def get_top_module(client, message):
 
     total_count = sum(count for _, count in sorted_vars[:command_count])
 
-    txt = "<emoji id=5231200819986047254>📊</emoji> Perintah Teratas\n\n"
-for command, count in sorted_vars[:command_count]:
-    txt += f"📌 <b>{command}</b>: {count} kali digunakan\n"
+    txt = "<emoji id=5231200819986047254>📊</emoji> **Top Command**\n\n"
+    for command, count in sorted_vars[:command_count]:
+        txt += f"•> {command} : {count}\n"
 
-txt += f"\n<emoji id=5282843764451195532>📈</emoji> Total: {total_count} perintah"
+    txt += f"\n<emoji id=5282843764451195532>📈</emoji> Total: {total_count} command"
 
     await message.reply(txt)
 
