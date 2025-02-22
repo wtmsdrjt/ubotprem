@@ -30,7 +30,7 @@ class MSG:
 <b>🎟️ Harga Perbulan: {harga}.000</b>
 
 <b>💳 Metode Pembayaran</b>
-QRIS [ <a href=https://t.me/UserbotStore/5>Tap Disini</a> ]
+QRIS [ <a href=https://telegra.ph/file/9fd670b7d915fffc95519.jpg>Tap Disini</a> ]
 
 <b>🔖 Total Harga: Rp {total}.000</b>
 <b>🗓️ Total Bulan: {bulan}</b>
