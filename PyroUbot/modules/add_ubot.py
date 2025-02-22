@@ -149,7 +149,7 @@ Jika userbot Anda tidak bisa digunakan, silakan tekan tombol restart.
     premium_users, ultra_premium_users = await get_list_from_vars(client.me.id, "PREM_USERS"), await get_list_from_vars(client.me.id, "ULTRA_PREM")
     if user_id not in premium_users and user_id not in ultra_premium_users:
         buttons = [
-            [InlineKeyboardButton("💸 Beli Userbot 💸", callback_data="bahan")],
+            [InlineKeyboardButton("▶️ Lanjutkan", callback_data="bahan")],
             [InlineKeyboardButton("◀️ Kembali", callback_data=f"home {user_id}")],
         ]
         return await callback_query.edit_message_text(
@@ -160,7 +160,7 @@ Anda telah membeli userbot. Silakan tekan tombol **Lanjutkan** untuk membuat use
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     else:
-        buttons = [[InlineKeyboardButton("✅ ʟᴀɴᴊᴜᴛᴋᴀɴ", callback_data="add_ubot")]]
+        buttons = [[InlineKeyboardButton("▶️ Lanjutkan", callback_data="add_ubot")]]
         return await callback_query.edit_message_text(
             """
 ✅ Untuk membuat userbot, siapkan bahan berikut:  
