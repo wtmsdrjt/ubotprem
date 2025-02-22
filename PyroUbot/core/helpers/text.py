@@ -20,7 +20,7 @@ class MSG:
 
 🚀 Bot ini dikembangkan oleh <a href=tg://openmessage?user_id={OWNER_ID}>@iamcheating</a>. Jika Anda mengalami kesalahan atau masalah, silakan hubungi pemilik bot tersebut.
 
-<a href=https://t.me/UserbotStore/5>📋 Daftar Harga Userbot</a>
+<a href=https://telegra.ph/Daftar-Harga-Userbot-02-22-2>📋 Daftar Harga Userbot</a>
 """
 
     def TEXT_PAYMENT(harga, total, bulan):
