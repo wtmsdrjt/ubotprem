@@ -45,7 +45,7 @@ class MSG:
 """
 
     def POLICY():
-    return """
+        return f"""
 <b>🤖 Three Userbot</b>
 
 <b>🌟 Keunggulan</b>  
