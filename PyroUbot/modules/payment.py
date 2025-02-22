@@ -59,7 +59,7 @@ Terima kasih, {full_name}. Silakan tunggu, pembayaran Anda akan dikonfirmasi dal
 @PY.CALLBACK("^(kurang|tambah)")
 async def _(client, callback_query):
     BULAN = int(callback_query.data.split()[1])
-    HARGA = 20
+    HARGA = 10
     QUERY = callback_query.data.split()[0]
     try:
         if QUERY == "kurang" and BULAN > 1:
