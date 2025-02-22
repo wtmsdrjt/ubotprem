@@ -16,7 +16,7 @@ async def _(client, message):
     user_id = message.from_user.id
     buttons = BTN.START(message)
     msg = MSG.START(message)
-    pantek = "https://files.catbox.moe/94ii8p.jpg"
+    pantek = "https://i.ibb.co/hFvhhT4B/f76d912b942dea8ccc2150b1d682fe5a.jpg"
 
     await bot.send_photo(
         user_id, 
@@ -154,7 +154,7 @@ Jika userbot Anda tidak bisa digunakan, silakan tekan tombol restart.
         ]
         return await callback_query.edit_message_text(
             f"""
-Anda telah membeli userbot. Silakan tekan tombol **Lanjutkan** untuk membuat userbot Anda.
+Anda belum membeli userbot. Silakan tekan tombol **Lanjutkan** untuk membeli userbot.
 """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
