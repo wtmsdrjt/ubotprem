@@ -45,23 +45,19 @@ class MSG:
 """
 
     def POLICY():
-        return """
+    return """
 <b>🤖 Three Userbot</b>
 
-<b>🌟 Benefit Userbot</b>
-Userbot ini dapat diatur sendiri tanpa watermark, memberikan kebebasan dalam mengatur jeda dan LPM sesuai kebutuhan. Mendukung fitur forward/non-forward serta pengiriman foto, simbol, dan emoji premium.  
-Selain itu, userbot ini juga support berbagai format teks seperti **bold**, __underline__, `monospace`, ~~striket~~, ||spoiler||, [tautan](https://example.com), dan lain-lain.
+<b>🌟 Keunggulan</b>  
+Tanpa watermark, bebas atur jeda & LPM, support forward/non-forward, serta berbagai format teks (**bold**, `monospace`, ~~striket~~, dll.).  
 
-<b>↪️ Kebijakan Pengembalian</b>
-Setelah melakukan pembayaran, jika Anda belum memperoleh/menerima manfaat dari pembelian, Anda dapat menggunakan hak penggantian dalam waktu 2 hari setelah pembelian. Namun, jika Anda telah menggunakan/menerima salah satu manfaat dari pembelian, termasuk akses ke fitur pembuatan userbot, maka Anda tidak lagi berhak atas pengembalian dana.
+<b>↪️ Kebijakan Pengembalian</b>  
+Refund hanya berlaku dalam 2 hari jika belum menikmati manfaat pembelian. Jika sudah digunakan, refund tidak tersedia.  
 
-<b>🆘 Dukungan</b>
-Untuk mendapatkan dukungan, Anda dapat:
-❍ Mengikuti prosedur pembelian dibot ini
-❍ Resiko userbot bisa <a href=https://t.me/rawatnokos/63>Baca Disini</a> 
-❍ Beli Userbot = <b>SETUJU DAN PAHAM RESIKO</b>
+<b>🆘 Dukungan</b>  
+- Ikuti prosedur pembelian di bot.  
+- Pahami risiko userbot <a href=https://t.me/rawatnokos/63>disini</a>.  
+- Beli = <b>SETUJU & PAHAM RISIKO</b>.  
 
-👉🏻 Tekan tombol <b>Lanjutkan</b> untuk menyatakan bahwa Anda telah
-membaca dan menerima ketentuan ini dan melanjutkan
-pembelian. Jika tidak, tekan tombol <b>Kembali.</b>
+👉🏻 Klik <b>Lanjutkan</b> jika setuju, atau <b>Kembali</b> untuk batal.  
 """
