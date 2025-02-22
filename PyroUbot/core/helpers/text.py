@@ -29,12 +29,13 @@ class MSG:
 
 <b>🎟️ Harga Perbulan: {harga}.000</b>
 
-<b>💳 Metode Pembayaran:</b>
-<b>• QRIS All Payment</b>
+<b>💳 Metode Pembayaran</b>
+QRIS [ <a href=https://t.me/UserbotStore/5>Tap Disini</a> ]
+
 <b>🔖 Total Harga: Rp {total}.000</b>
 <b>🗓️ Total Bulan: {bulan}</b>
 
-<b>🛍 Klik tombol konfirmasi untuk melanjutkan!</b>
+<b>🛍 Klik tombol **Konfirmasi** untuk melanjutkan.</b>
 """
 
     async def UBOT(count):
