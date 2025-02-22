@@ -23,12 +23,18 @@ from pyrogram.errors import *
 
 
 def unpackInlineMessage(inline_message_id: str):
-    dc_id, message_id, chat_id, query_id = unpack(
-        "<iiiq",
-        urlsafe_b64decode(
-            inline_message_id + "=" * (len(inline_message_id) % 4),
-        ),
-    )
+    if not inline_message_id:
+        return None  
+
+    padded_id = inline_message_id + "=" * (-len(inline_message_id) % 4)
+    
+    try:
+        decoded_data = urlsafe_b64decode(padded_id)
+        dc_id, message_id, chat_id, query_id = unpack("<iiiq", decoded_data)
+    except Exception as e:
+        print(f"Error decoding inline_message_id: {e}")
+        return None  
+
     temp = {
         "dc_id": dc_id,
         "message_id": message_id,
