@@ -13,17 +13,11 @@ from PyroUbot import *
 @PY.START
 @PY.PRIVATE
 async def _(client, message):
-    user_id = message.from_user.id
     buttons = BTN.START(message)
     msg = MSG.START(message)
-    pantek = "https://i.ibb.co/hFvhhT4B/f76d912b942dea8ccc2150b1d682fe5a.jpg"
-
-    await bot.send_photo(
-        user_id, 
-        pantek, 
-        caption=msg, 
-        reply_markup=InlineKeyboardMarkup(buttons) if buttons else None
-    )
+    await message.reply(
+        msg,
+        reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @PY.CALLBACK("bahan")
