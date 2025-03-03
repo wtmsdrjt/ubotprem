@@ -137,12 +137,12 @@ class BTN:
     def START(message):
         if not message.from_user.id == OWNER_ID:
             button = [
-                [InlineKeyboardButton("🔥 Beli Userbot 🔥", callback_data="bahan")],
+                [InlineKeyboardButton("Beli Userbot", callback_data="bahan")],
                 [
-                    InlineKeyboardButton("🏆 Buat Userbot 🏆", callback_data="buat_ubot"),
-                    InlineKeyboardButton("📁 Module 📁", callback_data="help_back")
+                    InlineKeyboardButton("Buat Userbot", callback_data="buat_ubot"),
+                    InlineKeyboardButton("Module", callback_data="help_back")
                 ],
-                [InlineKeyboardButton("💬 Bantuan 💬", callback_data="support")]
+                [InlineKeyboardButton("Bantuan", callback_data="support")]
             ]
         else:
             button = [
